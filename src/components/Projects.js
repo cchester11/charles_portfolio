@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div id="projects" className="mt-5 mb-5 d-flex flex-column justify-content-center align-content-center">
       <div style={toggle ?{color: "blue"}: {color: "red"}}>{toggle ?"Hello": "Goodbye"}</div>
-      <button type="button" onClick={() => setToggle(!toggle)}>Toggle</button>
+      <button id="toggle" type="button" onClick={() => setToggle(!toggle)}>Toggle</button>
       {projectData.map(project => {
         return (
           <>
