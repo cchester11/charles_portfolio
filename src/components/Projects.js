@@ -5,13 +5,13 @@ import readmeGenerator from '../assets/projects-pictures/readmeGenerator.jpg';
 
 function Projects () {
   return (
-    <div className="mt-5 mb-5 d-flex flex-column justify-content-center align-content-center">
+    <div id="projects" className="mt-5 mb-5 d-flex flex-column justify-content-center align-content-center">
       <h3 className="mt-5">Fantasy Team Builder</h3>
-      <img src={photo1} alt="Fantasy Team Builder" className="my-1" />
+      <img id="project-picture" src={photo1} alt="Fantasy Team Builder" className="my-1" />
       <h3 className="mt-5">Weather Dashboard</h3>
-      <img src={screenshot} alt="Weather Dashboard Project" className="my-1" />
+      <img id="project-picture" src={screenshot} alt="Weather Dashboard Project" className="my-1" />
       <h3 className="mt-5">Readme Generator</h3>
-      <img src={readmeGenerator} alt="readmeGenerator" className="my-1" />
+      <img id="project-picture" src={readmeGenerator} alt="readmeGenerator" className="my-1" />
     </div>
   )
 };

@@ -25,7 +25,7 @@ function Navigation () {
   return (
     <div>
       <Tabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div>
+      <div id="page-content">
         {renderPage(currentPage)}
       </div>
       <Footer />

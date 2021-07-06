@@ -1,5 +1,19 @@
+html {
+  overflow: hidden;
+}
+
+html, body {
+  height: 100%; 
+}
+
+#root {
+  overflow-y: scroll;
+}
+
 body {
   box-sizing: border-box;
+  margin: 0;
+  min-height: 100%;
   background-color: black;
   color: white;
 }
@@ -11,6 +25,12 @@ a {
   text-decoration-color: none;
   text-decoration-line: none;
 }
+
+/* #tabs {
+  top: 0;
+  position: absolute;
+  width: 100%;
+} */
 
 .nav {
   background-color: rebeccapurple;
@@ -24,6 +44,9 @@ a {
   color: white;
 }
 
+/* #page-content {
+} */
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -36,8 +59,23 @@ button {
   background-color: rebeccapurple;
 }
 
+#comment-contact, #user-contact, #email-contact {
+  width: 100%;
+}
+
+#projects {
+  scroll-behavior: auto;
+}
+
+#project-picture {
+  inline-size: -webkit-fill-available;
+}
+
 #footer {
   padding: 75px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
   background-color: rebeccapurple;
   font-weight: bolder;
   color: black;
