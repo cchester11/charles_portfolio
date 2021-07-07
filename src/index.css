@@ -65,10 +65,14 @@ button {
 
 #projects {
   scroll-behavior: auto;
+  display: flex;
+  align-items: center;
 }
 
 #project-picture {
   inline-size: -webkit-fill-available;
+  width: 1000px;
+  height: 600px;
 }
 
 #footer {

@@ -5,9 +5,9 @@ import readmeGenerator from '../assets/projects-pictures/readmeGenerator.jpg';
 
 function Projects() {
   const projectData = [
-    { name: "Fantasy Team Builder", link: "", image: photo1 },
-    { name: "Weather Dashboard", link: "", image: screenshot },
-    { name: "Readme Generator", link: "", image: readmeGenerator }
+    { name: "Fantasy Team Builder", link: "https://github.com/jshmtchll/fantasy-team-roster.git", image: photo1 },
+    { name: "Weather Dashboard", link: "https://github.com/cchester11/weather_dashboard.git", image: screenshot },
+    { name: "Readme Generator", link: "https://github.com/cchester11/readme-generator.git", image: readmeGenerator }
   ]
   const [toggle, setToggle] = useState(true)
   return (
@@ -18,7 +18,7 @@ function Projects() {
         return (
           <>
             <h3 className="mt-5">{project.name}</h3>
-            <a href={project.link}>
+            <a href={project.link} rel="noreferrer noopener" target="_blank">
             <img id="project-picture" src={project.image} alt={project.name} className="my-1" />
             </a>
           </>
