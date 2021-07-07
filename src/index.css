@@ -85,7 +85,11 @@ button {
   color: black;
 }
 
-#footer:hover {
+#github:hover {
+  color: white;
+}
+
+#linkedin:hover {
   color: white;
 }
 
